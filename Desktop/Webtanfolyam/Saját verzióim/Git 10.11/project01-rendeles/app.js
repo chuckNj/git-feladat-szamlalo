@@ -52,14 +52,13 @@ const orders = [
         ar: 6500,
         kep: "https://images.pexels.com/photos/6697469/pexels-photo-6697469.jpeg?auto=compress&cs=tinysrgb&w=1600"
     },
-    // További rendelések hozzáadása itt
 ];
 
 const orderContainer = document.getElementById("orderContainer");
 
 // Rendelések megjelenítése
 function displayOrders() {
-    orderContainer.innerHTML = ""; // Törölje az eddigi tartalmat
+    orderContainer.innerHTML = "";
 
     orders.forEach((order) => {
         const orderDiv = document.createElement("div");
@@ -79,4 +78,4 @@ function displayOrders() {
     });
 }
 
-displayOrders(); // Megjelenítjük az inicializált rendeléseket
+displayOrders(); // Megjelenítjük az rendeléseket
