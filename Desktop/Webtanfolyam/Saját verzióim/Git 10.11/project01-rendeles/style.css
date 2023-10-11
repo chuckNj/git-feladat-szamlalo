@@ -1,0 +1,25 @@
+/* Rendelések megjelenítésének formázása */
+.order {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* Három rendelés egy sorban */
+.order:nth-child(3n) {
+    margin-right: 0;
+}
+
+/* Rendelés konténer formázása */
+.order-container {
+    text-align: center;
+    
+}
+
+img{
+
+    max-width: 200px;
+}
