@@ -16,3 +16,21 @@ body {
 #count {
     margin: 0 20px;
 }
+
+button{
+
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    
+}
+
+button:hover{
+
+    background-color: aqua;
+    color: black;
+}
